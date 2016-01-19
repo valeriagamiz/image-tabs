@@ -20,3 +20,15 @@ html {
 
     font-size: 100%;
 }
+
+.tabs {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.tabs > li {
+  display: inline-block;
+  list-style-type: none; 
+}
+
