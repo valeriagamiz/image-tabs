@@ -1,11 +1,8 @@
-@charset "utf-8";
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
-
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -17,7 +14,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-
     font-size: 100%;
 }
 
@@ -29,7 +25,7 @@ html {
 
 .tabs > li {
   display: inline-block;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .tabs a {
@@ -47,10 +43,8 @@ html {
 
 .panel {
   display: none;
-  }
-  
-.panel:target {
-    display: block; 
-  }
-  
+}
 
+.panel:target {
+  display: block; 
+}
