@@ -44,3 +44,13 @@ html {
 .tabs a:hover {
   background-color: deeppink;
 }
+
+.panel {
+  display: none;
+  }
+  
+.panel:target {
+    display: block; 
+  }
+  
+
